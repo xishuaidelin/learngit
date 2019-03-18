@@ -8,4 +8,5 @@ git diff -查看当前仓库和上次提交后有什么differences
 git log & git log --pretty=oneline 显示由近到远的提交日志
 git reset --hard HEAD^ 回退到git上一个版本
 git reflog查看命令历史，方便找到相关commit id
-git reset --hard <commit id>直接回退到特定提交版本
+git reset --hard <commit id>直接回退到特定version
+
