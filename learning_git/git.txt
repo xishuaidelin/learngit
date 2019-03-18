@@ -11,4 +11,9 @@ git reflog查看命令历史，方便找到相关commit id
 git reset --hard <commit id>直接回退到特定version
 git checkout -- <filename> 丢掉工作区的修改
 git reset HEAD <filename> 丢掉暂存区的修改
-trash
+git checkout -b <branchname> 创建新分支并切换过去
+git branch 查看分支
+git branch <branchname> 创建分支
+git checkout <name> 切换分支
+git merge <name>  合并某分支到当前分支
+git branch -d <name> 删除分支
