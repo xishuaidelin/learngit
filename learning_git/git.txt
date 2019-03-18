@@ -16,4 +16,7 @@ git branch 查看分支
 git branch <branchname> 创建分支
 git checkout <name> 切换分支
 git merge <name>  合并某分支到当前分支
-git branch -d <name> 删除分支
+git branch -d <name> 删除某个分支
+
+note:
+在进行分支合并时，如果各个分支改了同一个地方，则合并出现错误，需要手动对共同修改的地方进行改正再进行合并。git log 可以看见分支的合并情况。
