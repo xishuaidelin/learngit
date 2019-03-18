@@ -5,3 +5,5 @@ git commit -向仓库提交添加的东西
 git status -查看当前仓库的状态
 git diff -查看当前仓库和上次提交后有什么differences
 备注：在将内容进行修改还没有进行提交时，git diff能显示相关修改信息，当提交后,git diff会清空
+git log & git log --pretty=oneline 显示由近到远的提交日志
+git reset --hard HEAD^ 回退到git上一个版本
